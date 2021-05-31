@@ -7,10 +7,14 @@ import java.awt.Graphics;
 public class Over {
 	public static void over(boolean over,Graphics g)
 	{ 
+		
 		if(over) {
-		g.setColor(Color.black);
-		g.setFont(new Font("楷书",1,140));
-		g.drawString("游戏结束",120,400);
+		
+			g.setColor(Color.black);
+		
+			g.setFont(new Font("楷书",1,140));
+		
+			g.drawString("游戏结束",120,400);
 		
 	}}
 }
